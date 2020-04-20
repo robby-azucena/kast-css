@@ -24,6 +24,12 @@ input{
   align-items: center;
 }
 
+.divider{
+  height:80%;
+  width:2px;
+  background-color: #33333338;
+}
+
 
 
 
@@ -73,8 +79,11 @@ input{
 
 nav{
   background-color:white;
-  height:100px;
+  height:80px;
   width:100vw;
-  display:flex;
+  display:flex !important;
   flex-direction: row;
+  align-items:center;
+  padding: 5px 10px;
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.308);
 }
