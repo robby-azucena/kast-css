@@ -133,6 +133,17 @@ module.exports = {
                 collapseWhitespace: true
             }
         }),
+        new HtmlWebpackPlugin({
+            template: './src/dashboard.html',
+            filename: './dashboard.html',
+            favicon: "./src/favicons/favicon-16x16.png",
+            inject: true,
+            chunks: ['index'],
+            minify: {
+                removeComments: true,
+                collapseWhitespace: true
+            }
+        }),
         new RobotstxtPlugin(options),
         new MiniCssExtractPlugin({
             filename: "[name].css",
