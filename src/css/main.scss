@@ -1,7 +1,8 @@
 body {
-    background-color: #EEF6F8 !important;
+    background-color: rgb(255, 255, 255) !important;
     color: #333333;
     overflow-x:hidden;
+    margin: 0;
   }
   
 html
@@ -9,6 +10,25 @@ html
   font-family: 'opensans', sans-serif;
   scroll-behavior: smooth;
 }
+
+
+
+
+
+
+input{
+  background-color: #F0F2F5 !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+  height: 40px !important;
+}
+
+input::placeholder{
+  color:#3333337a !important;
+}
+
+
+
   
 
 
@@ -18,8 +38,11 @@ html
   align-items: center;
 }
 
+.col-5.container-flex{
+  padding: 0px 6%;
+}
+
 .container-login{
-  overflow: hidden;
   width:100vw;
 
   .container-kast{
