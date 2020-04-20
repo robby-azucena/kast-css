@@ -11,10 +11,28 @@ html
 }
   
 
-#test {
-  background-color: black;
-  h1{
-    color: white
+
+.container-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-login{
+  overflow: hidden;
+  width:100vw;
+
+  .container-kast{
+      text-align: left;
+      color:white;
   }
+}
+
+.kast-bg{
+  background-image: linear-gradient(-120deg,#19ABFF, #281B7D);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   
