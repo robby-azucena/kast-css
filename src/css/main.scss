@@ -23,9 +23,7 @@ input{
   height: 40px !important;
 }
 
-input::placeholder{
-  color:#3333337a !important;
-}
+
 
 
 
@@ -49,6 +47,10 @@ input::placeholder{
       text-align: left;
       color:white;
   }
+}
+
+.container-form{
+  width:100%;
 }
 
 .kast-bg{
