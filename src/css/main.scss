@@ -25,7 +25,7 @@ input{
 }
 
 .divider{
-  height:80%;
+  height:60%;
   width:2px;
   background-color: #33333338;
 }
@@ -78,12 +78,75 @@ input{
 
 
 nav{
+  position: relative;
   background-color:white;
-  height:80px;
+  height:100px;
   width:100vw;
   display:flex !important;
   flex-direction: row;
   align-items:center;
   padding: 5px 10px;
-  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.308);
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.16);
+
+  .nav-left{
+    position: fixed;
+    left:0;
+    padding-left: 10px;
+    display:flex !important;
+    flex-direction: row;
+    align-items:center;
+
+    .form-group{
+      margin: 0;
+      label{
+        font-size: .875rem;
+        margin:0;
+        color: #3333336c;
+      }
+    
+      .channel{
+        .nav-link{
+          color: #333333;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+
+  .nav-center{
+    position:fixed;
+    right:0;
+    left:0;
+    width:100vw;
+    height: 50px;
+    display:flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+
+    ul{
+      list-style-type: none;
+      margin:0;
+      padding: 0;
+
+      li{
+        .btn-icon{
+          margin: 0px 5px;
+        }
+      }
+    }
+  }
+
+  .nav-right{
+    position: fixed;
+    right:0;
+    padding-right: 10px;
+    display:flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+  }
+
+  
 }
