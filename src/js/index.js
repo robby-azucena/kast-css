@@ -9,3 +9,5 @@ import 'bootstrap/scss/bootstrap.scss';
 
 import '../img/kast-logo.svg'
 import '../img/kast-logo-white.svg'
+import '../img/kast-logo.png'
+import '../img/kast-logo-white.png'
