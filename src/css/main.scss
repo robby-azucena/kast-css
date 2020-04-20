@@ -33,15 +33,9 @@ input{
 }
   
 
-
-.container-flex{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.col-5.container-flex{
+.col-xl-5.flex-center{
   padding: 0px 6%;
+  height:100vh
 }
 
 .container-login{
@@ -65,3 +59,14 @@ input{
   align-items: center;
 }
   
+@media (max-width:991px){
+  .kast-bg{
+    display:none;
+  }
+}
+
+@media (min-width:992px){
+  img.kast-logo-login{
+    display:none;
+  }
+}
