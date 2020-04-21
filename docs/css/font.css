@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+ p {
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 1rem;
+	 font-weight: 400;
+	 color: #333;
+}
+ h1, h2, h3, h4, h5, h6 {
+	 font-family: 'Open Sans', sans-serif;
+}
+ label {
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 0.875rem;
+	 font-weight: 600;
+	 color: #333;
+}
+ .btn {
+	 font-family: 'Open Sans', sans-serif !important;
+	 font-size: 1.125rem !important;
+}
+ input::placeholder {
+	 color: #333 7a !important;
+}
+ body {
+	 font-family: 'Open Sans', sans-serif;
+}
+ .account-info p {
+	 font-size: 0.875rem;
+	 font-weight: 600;
+	 color: #333 79;
+	 margin: 0;
+}
+ 

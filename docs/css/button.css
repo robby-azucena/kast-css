@@ -1,29 +1,26 @@
-.btn.btn-primary, .btn.btn-primary:focus{
-    background-color: #19ABFF;
+.btn.btn-primary, .btn.btn-primary:focus {
+    background-color: #19abff;
     border-radius: 40px;
     padding: 16px 30px;
     border: 0;
     box-shadow: 0px 3px 7px rgba(69, 103, 255, 0.38);
 }
-
-.btn.btn-primary:hover{
-    background-color: rgb(77, 190, 255);
+.btn.btn-primary:hover {
+    background-color: #4dbeff;
     border-radius: 40px;
     border: 0;
     box-shadow: 0px 3px 7px rgba(69, 103, 255, 0.38);
 }
-
-.btn.btn-primary:active{
-    background-color: #19ABFF !important;
+.btn.btn-primary:active {
+    background-color: #19abff !important;
     border-radius: 40px;
     border: 0;
     box-shadow: 0px 15px 20px 1px rgba(69, 103, 255, 0.38) !important;
 }
-
-.btn-icon{
+.btn-icon {
     height: 40px;
     width: 40px;
-    background-color: #E1E3E6;
+    background-color: #e1e3e6;
     border-radius: 40px;
     outline: 0 !important;
     border: none;
@@ -33,48 +30,39 @@
     align-items: center;
     margin: 0px 5px;
 }
-
-.active{
-    background-color: #19ABFF !important;
+.active {
+    background-color: #19abff !important;
 }
-
-
-.sms-btn{
-    outline:0;
-    border:0;
+.sms-btn {
+    outline: 0;
+    border: 0;
     background-color: rgba(69, 103, 255, 0);
-    color:#19ABFF;
+    color: #19abff;
     font-size: 24px;
 }
-
-
-
-a, a:hover, a:active, a:focus{
+a, a:hover, a:active, a:focus {
     outline: 0;
 }
-
-.signout-btn{
-    height:60px;
-    background-color: #FF6969;
-    margin: 0px -30px
+.signout-btn {
+    height: 60px;
+    background-color: #ff6969;
+    margin: 0px -30px;
 }
-
 .bar1, .bar2, .bar3 {
     width: 25px;
     height: 3px;
-    background-color: #19ABFF;
+    background-color: #19abff;
     margin: 6px 0;
     transition: 0.4s !important;
 }
-  
-  .change .bar1 {
+.change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-4.5px, 6px);
     transform: rotate(-45deg) translate(-3.5px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
     -webkit-transform: rotate(45deg) translate(-6.5px, -9px);
     transform: rotate(45deg) translate(-6.5px, -9px);
-  }
+}
