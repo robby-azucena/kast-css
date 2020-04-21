@@ -1,5 +1,8 @@
-# webpack-bootstrap-template
-Bootstrap template for webpack
+# This is for Kast css
 
-**webpack-bootstrap-template**
-Bootstrap template for webpack
+
+## Download dependencies
+npm install
+
+## Run dev server
+npm run dev-server
