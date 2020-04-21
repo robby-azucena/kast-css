@@ -1,7 +1,7 @@
 .btn.btn-primary, .btn.btn-primary:focus{
     background-color: #19ABFF;
     border-radius: 40px;
-    padding: 16px 50px;
+    padding: 16px 30px;
     border: 0;
     box-shadow: 0px 3px 7px rgba(69, 103, 255, 0.38);
 }
@@ -9,7 +9,6 @@
 .btn.btn-primary:hover{
     background-color: rgb(77, 190, 255);
     border-radius: 40px;
-    padding: 16px 50px;
     border: 0;
     box-shadow: 0px 3px 7px rgba(69, 103, 255, 0.38);
 }
@@ -17,7 +16,6 @@
 .btn.btn-primary:active{
     background-color: #19ABFF !important;
     border-radius: 40px;
-    padding: 16px 50px;
     border: 0;
     box-shadow: 0px 15px 20px 1px rgba(69, 103, 255, 0.38) !important;
 }
@@ -43,7 +41,6 @@ a, a:hover, a:active, a:focus{
     background-color: #19ABFF;
     margin: 6px 0;
     transition: 0.4s !important;
-    outline: 0 !important;
 }
   
   .change .bar1 {
