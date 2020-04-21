@@ -12,7 +12,6 @@
 
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
 
 	<title>Dashboard</title>
 	<link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
@@ -46,9 +45,12 @@
 				<div class="nav-center">
 					<ul>
 						<li>
-							<a href="dashboard.html"><button type="button" class="btn-icon active"><img src="img/dashboard-active.svg"></button></a>
-							<a href="#"><button type="button" class="btn-icon"><img src="img/contact-icn.svg"></button></a>
-							<a href="#"><button type="button" class="btn-icon"><img src="img/inbox-icn.svg"></button></a>
+							<a href="dashboard.html"><button type="button" class="btn-icon active"><img
+										src="img/dashboard-active.svg"></button></a>
+							<a href="#"><button type="button" class="btn-icon"><img
+										src="img/contact-icn.svg"></button></a>
+							<a href="#"><button type="button" class="btn-icon"><img
+										src="img/inbox-icn.svg"></button></a>
 							<a href="#"><button type="button" class="btn-icon"><img src="img/user-icn.svg"></button></a>
 							<a href="#"><button type="button" class="btn-icon"><img src="img/help-icn.svg"></button></a>
 						</li>
@@ -90,14 +92,63 @@
 		</div>
 
 		<div class="nav-sidebar">
+			<div class="account-info text-center">
+				<p>Account</p>
+				<h3>Juan Dela Cruz</h3>
+			</div>
+			<div class="divider-horizontal my-2"></div>
+			<div class="form-group">
+				<label for="dropdown-menu">Channel</label>
+				<div class="nav-item dropdown channel">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						EchoTest
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">EchoTest</a>
+						<a class="dropdown-item" href="#">RTtest</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</div>
+			</div>
+			<div class="divider-horizontal my-2"></div>
+
 			<ul>
-				<li>Test</li>
+				<li>
+					<a href="#"><button type="button" class="btn-icon active"><img
+								src="img/dashboard-active.svg"></button>Dashboard</a>
+				</li>
+				<li>
+					<a href="#"><button type="button" class="btn-icon"><img
+								src="img/contact-icn.svg"></button>Contact</a>
+				</li>
+				<li>
+					<a href="#"><button type="button" class="btn-icon"><img src="img/inbox-icn.svg"></button>Inbox</a>
+				</li>
+				<li>
+					<a href="#"><button type="button" class="btn-icon"><img src="img/user-icn.svg"></button>Users</a>
+				</li>
+				<li>
+					<a href="#"><button type="button" class="btn-icon"><img src="img/help-icn.svg"></button>Help</a>
+				</li>
+				<li>
+					<div class="divider-horizontal my-2"></div>
+				</li>
+				
+				<li>
+					<a href="#"><i class="fa fa-key ml-3 mr-3" aria-hidden="true"></i>
+						Change Password</a>
+				</li>
 			</ul>
+			<a class="signout-btn" href="#">
+
+			</a>
+
+
+
+
 		</div>
 	</nav>
-
-
-
 
 </body>
 

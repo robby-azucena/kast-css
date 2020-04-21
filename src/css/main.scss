@@ -30,6 +30,12 @@ input{
   background-color: #33333338;
 }
 
+.divider-horizontal{
+  height:2px;
+  width:100%;
+  background-color: #33333338;
+}
+
 
 
 
@@ -78,6 +84,28 @@ input{
 
 
 //Nav CSS
+nav{
+
+  .form-group{
+    margin: 0;
+    label{
+      font-size: .875rem;
+      margin:0;
+      color: #3333336c;
+    }
+  
+    .channel{
+      .nav-link{
+        color: #333333;
+        padding: 0;
+      }
+    }
+  }
+
+  .dropdown-menu{
+    border:0;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
+  }
 
 .nav{
   transition: all 0.3s;
@@ -123,21 +151,7 @@ input{
       height: 32px;
     }
 
-    .form-group{
-      margin: 0;
-      label{
-        font-size: .875rem;
-        margin:0;
-        color: #3333336c;
-      }
     
-      .channel{
-        .nav-link{
-          color: #333333;
-          padding: 0;
-        }
-      }
-    }
   }
 
 
@@ -178,10 +192,7 @@ input{
    
   }
 
-  .dropdown-menu{
-    border:0;
-    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
-  }
+  
 }
 
 @media (min-width:993px){
@@ -218,7 +229,33 @@ input{
     display: flex;
     justify-content: start;
     flex-direction: column;
+    padding: 10px 30px;
+
+    ul{
+      list-style-type: none !important;
+      margin:0;
+      padding: 0;
+
+      li{
+        list-style-type: none !important;
+        margin:20px 0px;
+
+        a{
+          display: flex;
+          flex-direction: row;
+          align-items:center;
+          text-decoration: none;
+          color: #333333;
+
+          button{
+            margin-right:20px;
+          }
+        }
+      }
+    }
   }
+
+  
 
   .show-sidebar{
     transform: translateX(0%);
@@ -227,4 +264,5 @@ input{
   .nav{
     height: 70px;
   }
+}
 }
