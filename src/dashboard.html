@@ -20,72 +20,80 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+	<!--Navigation-->
 	<nav>
-		<div class="nav-lg">
-			<div class="nav-left">
-				<img src="img/kast-logo.png" alt="kast logo">
-				<div class="divider ml-3 mr-3"></div>
-				<div class="form-group">
-					<label for="dropdown-menu">Channel</label>
+		<div class="nav">
+			<div class="nav-lg">
+				<div class="nav-left">
+					<img src="img/kast-logo.png" alt="kast logo">
+					<div class="divider ml-3 mr-3"></div>
+					<div class="form-group">
+						<label for="dropdown-menu">Channel</label>
+						<div class="nav-item dropdown channel">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								EchoTest
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">EchoTest</a>
+								<a class="dropdown-item" href="#">RTtest</a>
+								<a class="dropdown-item" href="#">Something else here</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="nav-center">
+					<ul>
+						<li>
+							<a href="#"><button type="button" class="btn-icon"></button></a>
+							<a href="#"><button type="button" class="btn-icon"></button></a>
+							<a href="#"><button type="button" class="btn-icon"></button></a>
+							<a href="#"><button type="button" class="btn-icon"></button></a>
+							<a href="#"><button type="button" class="btn-icon"></button></a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="nav-right">
+					<a href="/sms.html"><button type="button" class="btn btn-primary"><i class="fa fa-paper-plane mr-3"
+								aria-hidden="true"></i>Send SMS</button></a>
 					<div class="nav-item dropdown channel">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							EchoTest
+							Juan Dela Cruz
 						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a class="dropdown-item" href="#">EchoTest</a>
-							<a class="dropdown-item" href="#">RTtest</a>
-							<a class="dropdown-item" href="#">Something else here</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Change Password</a>
+							<a class="dropdown-item" href="#">Sign out</a>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="nav-center">
-				<ul>
-					<li>
-						<a href="#"><button type="button" class="btn-icon"></button></a>
-						<a href="#"><button type="button" class="btn-icon"></button></a>
-						<a href="#"><button type="button" class="btn-icon"></button></a>
-						<a href="#"><button type="button" class="btn-icon"></button></a>
-						<a href="#"><button type="button" class="btn-icon"></button></a>
-					</li>
-				</ul>
-			</div>
-
-			<div class="nav-right">
-				<a href="/sms.html"><button type="button" class="btn btn-primary"><i class="fa fa-paper-plane mr-3" aria-hidden="true"></i>Send SMS</button></a>
-				<div class="nav-item dropdown channel">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Juan Dela Cruz
-					</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Change Password</a>
-						<a class="dropdown-item" href="#">Sign out</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="nav-mobile">
-			<button class="navbar-toggler" type="button" data-toggle="collapse"
-				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
-			</button>
-			<img class="mx-auto" src="img/kast-logo.png" alt="kast logo">
-
-			<a href="/sms.html">
-				<button class="sms-btn">
-					<i class="fa fa-paper-plane" aria-hidden="true"></i>
-
+			<div class="nav-mobile">
+				<button class="navbar-toggler" type="button" data-toggle="collapse"
+					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
 				</button>
-			</a>
+				<img class="mx-auto" src="img/kast-logo.png" alt="kast logo">
+
+				<a href="/sms.html">
+					<button class="sms-btn">
+						<i class="fa fa-paper-plane" aria-hidden="true"></i>
+					</button>
+				</a>
+			</div>
 		</div>
 
+		<div class="nav-sidebar">
+			<ul>
+				<li>Test</li>
+			</ul>
+		</div>
 	</nav>
 
 

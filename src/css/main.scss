@@ -33,7 +33,7 @@ input{
 
 
 
-
+//Login CSS
 
 .col-xl-5.flex-center{
   padding: 0px 6%;
@@ -75,11 +75,11 @@ input{
 
 
 
+//Nav CSS
 
-
-nav{
+.nav{
   transition: all 0.3s;
-  z-index: 2;
+  z-index: 10;
   position: relative;
   background-color:white;
   height:100px;
@@ -140,7 +140,6 @@ nav{
 
 
   .nav-center{
-    z-index: -1;
     margin: 0px auto;
     height: 50px;
     display:flex;
@@ -163,7 +162,6 @@ nav{
   }
 
   .nav-right{
-    z-index: 3;
     padding-right: 20px;
     display:flex;
     flex-direction: row;
@@ -189,6 +187,10 @@ nav{
   .nav-mobile{
     display:none !important;
   }
+
+  .nav-sidebar{
+    display: none !important;
+  }
 }
 
 @media (max-width:992px){
@@ -203,8 +205,20 @@ nav{
     }
   }
 
+  .nav-sidebar{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.16);
+    height:100%;
+    width:70vw;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+  }
 
-  nav{
+  .nav{
     height: 70px;
   }
 }
