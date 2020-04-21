@@ -12,3 +12,11 @@ import '../img/kast-logo-white.svg'
 import '../img/kast-logo.png'
 import '../img/kast-logo-white.png'
 import '../favicons/favicon-16x16.png'
+
+
+$(document).ready(function () {
+    $('.navbar-toggler').click(function (e) {
+        $(this).toggleClass('change')
+     })
+
+})
