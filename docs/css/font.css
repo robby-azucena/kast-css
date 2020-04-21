@@ -30,4 +30,8 @@
 	 color: #333 79;
 	 margin: 0;
 }
+
+a, button{
+    font-family: 'Open Sans', sans-serif !important; 
+}
  

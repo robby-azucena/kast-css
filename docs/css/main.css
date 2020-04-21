@@ -1,6 +1,6 @@
 body {
   background-color: #fff !important;
-  color: #333;
+  color: #333333;
   overflow-x: hidden;
   margin: 0;
 }
@@ -22,12 +22,12 @@ input {
 .divider {
   height: 60%;
   width: 2px;
-  background-color: #333 38;
+  background-color: rgba(51, 51, 51, .20);
 }
 .divider-horizontal {
   height: 2px;
   width: 100%;
-  background-color: #333 38;
+  background-color: rgba(51, 51, 51, .20);
 }
 .col-xl-5.flex-center {
   padding: 0px 6%;
@@ -73,10 +73,10 @@ nav .form-group {
 nav .form-group label {
   font-size: 0.875rem;
   margin: 0;
-  color: #333 6c;
+  color: rgba(51, 51, 51, .20);
 }
 nav .form-group .channel .nav-link {
-  color: #333;
+  color: #333333;
   padding: 0;
 }
 nav .dropdown-menu {
@@ -113,6 +113,7 @@ nav .nav .nav-mobile img {
 }
 nav .nav .nav-left {
   padding-left: 20px;
+  height:100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -146,7 +147,7 @@ nav .nav .nav-right {
   align-items: center;
 }
 nav .nav .nav-right .nav-link {
-  color: #333;
+  color: #333333;
   margin-left: 20px;
   padding: 0;
 }
@@ -191,14 +192,17 @@ nav .nav .nav-right .nav-link {
  }
   nav .nav-sidebar ul li {
     list-style-type: none !important;
-    margin: 20px 0px;
+    height:60px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
  }
   nav .nav-sidebar ul li a {
     display: flex;
     flex-direction: row;
     align-items: center;
     text-decoration: none;
-    color: #333;
+    color: #333333;
  }
   nav .nav-sidebar ul li a button {
     margin-right: 20px;
