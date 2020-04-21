@@ -1,5 +1,5 @@
 # webpack-bootstrap-template
 Bootstrap template for webpack
 
-# webpack-bootstrap-template
+## webpack-bootstrap-template
 Bootstrap template for webpack
