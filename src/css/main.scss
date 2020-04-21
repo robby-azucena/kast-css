@@ -95,6 +95,16 @@ nav{
     padding: 5px 10px;
   }
 
+  .nav-mobile{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    height:100px;
+    width:100%;
+    padding: 5px 10px;
+  }
+
+
   .nav-left{
     margin-right: auto;
     padding-left: 20px;
@@ -170,10 +180,17 @@ nav{
   }
 }
 
+@media (min-width:993px){
+  .nav-mobile{
+    display:none !important;
+  }
+}
+
 @media (max-width:992px){
   .nav-lg{
     display:none !important;
   }
+
 
   nav{
     height: 70px;
