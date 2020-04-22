@@ -1,8 +1,12 @@
 body {
-  background-color: #fff !important;
+  background-color: #ffffff ;
   color: #333333;
   overflow-x: hidden;
   margin: 0;
+}
+
+body.inner-dashboard{
+  background-color: #F2F6FA ;
 }
 
 html {
@@ -340,6 +344,7 @@ nav .nav .nav-right .nav-link {
 }
 
 .card{
+  height:100%;
   border-radius: 30px !important;
   border: none !important;
   padding: 20px !important;
