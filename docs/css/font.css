@@ -5,26 +5,32 @@
 	 font-weight: 400;
 	 color: #333;
 }
+
  h1, h2, h3, h4, h5, h6 {
 	 font-family: 'Open Sans', sans-serif;
 }
- label {
+
+label {
 	 font-family: 'Open Sans', sans-serif;
 	 font-size: 0.875rem;
 	 font-weight: 600;
 	 color: #333;
 }
- .btn {
+
+.btn {
 	 font-family: 'Open Sans', sans-serif !important;
 	 font-size: 1.125rem !important;
 }
+
  input::placeholder {
-	 color: #333 7a !important;
+	 color: #3333337a !important;
 }
+
  body {
 	 font-family: 'Open Sans', sans-serif;
 }
- .account-info p {
+
+.account-info p {
 	 font-size: 0.875rem;
 	 font-weight: 600;
 	 color: #333 79;
@@ -33,5 +39,21 @@
 
 a, button{
     font-family: 'Open Sans', sans-serif !important; 
+}
+
+.title{
+	color:#19ABFF;
+}
+
+
+
+.card p{
+	font-size: 1.125rem;
+	margin:0;
+	color:#19ABFF;
+}
+
+.card h1{
+	color:#2955D6;
 }
  

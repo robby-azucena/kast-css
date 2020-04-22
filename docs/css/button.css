@@ -41,7 +41,8 @@
     font-size: 24px;
 }
 a, a:hover, a:active, a:focus {
-    outline: 0;
+    outline: 0 !important;
+    font-size: 1rem;
 }
 .signout-btn {
     background-color: #ff6969;
@@ -64,6 +65,46 @@ a, a:hover, a:active, a:focus {
 .change-password i, .signout-btn i{
     font-size: 1.5rem;
 }
+
+.arrow-btn{
+    font-size: 1rem;
+    color: #19abff;
+}
+
+.arrow-btn:hover{
+    font-size: 1rem;
+    color: #19abff;
+}
+
+.export-btn{
+    color: #19abff;
+    outline: 0;
+    height:32px;
+    width: 32px;
+    background-color: rgba(69, 103, 255, 0);
+    border-radius: 40px;
+    border: 2px solid #19abff;
+    transition: all 0.3s;
+}
+
+.export-btn:hover{
+    color: white;
+    outline: 0;
+    height:32px;
+    width: 32px;
+    background-color: #19abff;
+    border-radius: 40px;
+    border: 2px solid #19abff;
+}
+
+
+
+
+
+
+
+
+
 
 
 
