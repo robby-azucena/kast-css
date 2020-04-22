@@ -37,7 +37,7 @@
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								EchoTest
 							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="#">EchoTest</a>
 								<a class="dropdown-item" href="#">RTtest</a>
 								<a class="dropdown-item" href="#">Something else here</a>
@@ -51,11 +51,37 @@
 						<li>
 							<a href="dashboard.html"><button type="button" class="btn-icon active"><img
 										src="img/dashboard-active.svg"></button></a>
-							<a href="#"><button type="button" class="btn-icon"><img
-										src="img/contact-icn.svg"></button></a>
-							<a href="#"><button type="button" class="btn-icon"><img
-										src="img/inbox-icn.svg"></button></a>
-							<a href="#"><button type="button" class="btn-icon"><img src="img/user-icn.svg"></button></a>
+							<div class="nav-item dropdown">
+								<a id="navbarDropdown" role="button" data-toggle="dropdown"
+									aria-expanded="false"><button type="button" class="btn-icon"><img
+											src="img/contact-icn.svg"></button></a>
+								<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Contacts</a>
+									<a class="dropdown-item" href="#">Contact tags</a>
+								</div>
+							</div>
+
+							<div class="nav-item dropdown">
+								<a id="navbarDropdown" role="button" data-toggle="dropdown"
+									aria-expanded="false"><button type="button" class="btn-icon"><img
+											src="img/inbox-icn.svg"></button></a>
+								<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Broadcast</a>
+									<a class="dropdown-item" href="#">Reminders</a>
+									<a class="dropdown-item" href="#">Inbox</a>
+								</div>
+							</div>
+
+							<div class="nav-item dropdown">
+								<a id="navbarDropdown" role="button" data-toggle="dropdown"
+								aria-expanded="false"><button type="button" class="btn-icon"><img
+											src="img/user-icn.svg"></button></a>
+								<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Users</a>
+									<a class="dropdown-item" href="#">User Activities</a>
+								</div>
+							</div>
+
 							<a href="#"><button type="button" class="btn-icon"><img src="img/help-icn.svg"></button></a>
 						</li>
 					</ul>
@@ -199,7 +225,7 @@
 						</div>
 						<div class="col-sm-3 col-12 flex-right redirect">
 							<a class="arrow-btn" href="#">View all <i class="ml-2 fa fa-arrow-right"
-								aria-hidden="true"></i></a>
+									aria-hidden="true"></i></a>
 						</div>
 					</div>
 					<div class="divider-horizontal my-3"></div>
@@ -214,7 +240,7 @@
 						</div>
 						<div class="col-sm-3 col-12 flex-right redirect">
 							<a class="arrow-btn" href="#">View all<i class="ml-2 fa fa-arrow-right"
-								aria-hidden="true"></i></a>
+									aria-hidden="true"></i></a>
 						</div>
 					</div>
 					<div class="divider-horizontal my-3"></div>
@@ -232,7 +258,7 @@
 										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										In April 2020
 									</a>
-									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
 										<a class="dropdown-item" href="#">In March 2020</a>
 										<a class="dropdown-item" href="#">In January 2020</a>
 										<a class="dropdown-item" href="#">Something else here</a>
@@ -241,8 +267,9 @@
 							</div>
 						</div>
 						<div class="col-sm-3 col-12 flex-right redirect">
-							<a href="#"><button class="export-btn" type="button"><i class="fa fa-share" aria-hidden="true"></i>
-							</button></a>
+							<a href="#"><button class="export-btn" type="button"><i class="fa fa-share"
+										aria-hidden="true"></i>
+								</button></a>
 						</div>
 					</div>
 					<div class="divider-horizontal my-3"></div>
@@ -256,8 +283,9 @@
 							<h3 class="title">Consumption by group</h3>
 						</div>
 						<div class="col-sm-3 col-12 flex-right redirect">
-							<a href="#"><button class="export-btn" type="button"><i class="fa fa-share" aria-hidden="true"></i>
-							</button></a>
+							<a href="#"><button class="export-btn" type="button"><i class="fa fa-share"
+										aria-hidden="true"></i>
+								</button></a>
 						</div>
 					</div>
 					<div class="divider-horizontal my-3"></div>
@@ -271,8 +299,9 @@
 							<h3 class="title">Consumption by sender ID</h3>
 						</div>
 						<div class="col-sm-3 col-12 flex-right redirect">
-							<a href="#"><button class="export-btn" type="button"><i class="fa fa-share" aria-hidden="true"></i>
-							</button></a>
+							<a href="#"><button class="export-btn" type="button"><i class="fa fa-share"
+										aria-hidden="true"></i>
+								</button></a>
 						</div>
 					</div>
 					<div class="divider-horizontal my-3"></div>
@@ -286,15 +315,16 @@
 							<h3 class="title">Broadcast</h3>
 						</div>
 						<div class="col-sm-3 col-12 flex-right redirect">
-							<a href="#"><button class="export-btn" type="button"><i class="fa fa-share" aria-hidden="true"></i>
-							</button></a>
+							<a href="#"><button class="export-btn" type="button"><i class="fa fa-share"
+										aria-hidden="true"></i>
+								</button></a>
 						</div>
 					</div>
 					<div class="divider-horizontal my-3"></div>
 					<!--Insert Chart-->
 				</div>
 			</div>
-			
+
 
 
 

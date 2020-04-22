@@ -83,6 +83,42 @@ body .container{
   color: #333333
 }
 
+.dropdown-menu {
+  border: 0 !important;
+  outline: 0;
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
+  top: 8px !important;
+  left: -11px !important;
+}
+
+.dropdown-item{
+  padding:14px 30px !important;
+}
+
+.dropdown-menu-left .dropdown-item::before{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;	
+  border-bottom: 16px solid #FFFFFF;
+  top: -16px;
+  left: 24px;
+}
+
+.dropdown-menu-right .dropdown-item::before{
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;	
+  border-bottom: 16px solid #FFFFFF;
+  top: -16px;
+  right: 24px;
+}
+
 
 
 
@@ -139,10 +175,7 @@ nav .form-group .channel .nav-link {
   color: #333333;
   padding: 0;
 }
-nav .dropdown-menu {
-  border: 0;
-  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
-}
+
 nav .nav {
   transition: all 0.3s;
   z-index: 10;
