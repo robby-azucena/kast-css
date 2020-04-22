@@ -17,6 +17,10 @@ input {
   height: 40px !important;
 }
 
+.card .flex-column{
+  align-items: flex-start;
+}
+
 .flex-left{
   display: flex;
   justify-content: flex-start;
@@ -67,6 +71,15 @@ input {
 
 body .container{
   max-width: 1440px;
+}
+
+.nav-item.dropdown-input{
+  background-color: #F0F2F5;
+  border-radius: 10px;
+}
+
+.nav-item.dropdown-input a{
+  color: #333333
 }
 
 
@@ -282,5 +295,11 @@ nav .nav .nav-right .nav-link {
   border: none !important;
   padding: 20px !important;
   box-shadow: 0px 2px 30px rgba(10, 133, 171, .14) !important;
+}
+
+@media(max-width:575.98px){
+  .card .redirect{
+    justify-content: flex-start;
+  }
 }
 
