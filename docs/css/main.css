@@ -213,4 +213,14 @@ nav .nav .nav-right .nav-link {
   nav .nav {
     height: 70px;
  }
+
+ nav .fa-sign-out{
+  margin-left:13px;
+  margin-right:28px;
+ }
+
+ nav .change-password img{
+  margin-left:13px;
+  margin-right:28px;
+ }
 }
