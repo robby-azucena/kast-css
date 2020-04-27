@@ -129,7 +129,7 @@ body {
   
   
   .kast-bg {
-    background-image: linear-gradient(-120deg, #19abff, #281b7d);
+    background-image: linear-gradient(-120deg, rgb(171, 38, 207), rgb(79, 14, 97));
     height: 100vh;
     display: flex;
     justify-content: center;
