@@ -1,0 +1,357 @@
+body {
+    background-color: #ffffff ;
+    color: #333333;
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  body.inner-dashboard{
+    background-color: #F2F6FA ;
+  }
+  
+  html {
+    font-family: 'opensans', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  input {
+    background-color: #f0f2f5 !important;
+    border: 0 !important;
+    border-radius: 10px !important;
+    height: 40px !important;
+  }
+  
+  .card .flex-column{
+    align-items: flex-start;
+  }
+  
+  .flex-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .flex-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .divider {
+    height: 60%;
+    width: 2px;
+    background-color: rgba(51, 51, 51, .20);
+  }
+  
+  .divider-horizontal {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(51, 51, 51, .20);
+  }
+  
+  .form-login.flex-center {
+    padding: 0px 6%;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .container-login {
+    width: 100vw;
+  }
+  
+  .container-login .container-kast {
+    text-align: left;
+    color: white;
+  }
+  
+  .container-form {
+    width: 100%;
+  }
+  
+  body .container{
+    max-width: 1440px;
+  }
+  
+  .nav-item.dropdown-input{
+    background-color: #F0F2F5;
+    border-radius: 10px;
+  }
+  
+  .nav-item.dropdown-input a{
+    color: #333333
+  }
+  
+  .dropdown-menu {
+    border: 0 !important;
+    outline: 0;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
+    top: 8px !important;
+    left: -11px !important;
+  }
+  
+  .dropdown-item{
+    padding:14px 30px !important;
+  }
+  
+  .dropdown-menu-left .dropdown-item::before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;	
+    border-bottom: 16px solid #FFFFFF;
+    top: -16px;
+    left: 24px;
+  }
+  
+  .dropdown-menu-right .dropdown-item::before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;	
+    border-bottom: 16px solid #FFFFFF;
+    top: -16px;
+    right: 24px;
+  }
+  
+  
+  
+  
+  
+  
+  .kast-bg {
+    background-image: linear-gradient(-120deg, #19abff, #281b7d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-login{
+    position: relative;
+  }
+  @media (max-width: 991px) {
+    .kast-bg {
+      display: none;
+   }
+  }
+  @media (min-width: 992px) {
+    img.kast-logo-login {
+      display: none;
+   }
+  }
+  
+  .footer-login{
+    position: absolute;
+    height: 24px;
+    bottom:10px;
+  }
+  
+  .footer-login p{
+    margin:0;
+  }
+  
+  .footer-login a{
+    color: #19abff;
+  }
+  
+  
+  
+  
+  
+  nav .form-group {
+    margin: 0;
+  }
+  nav .form-group label {
+    font-size: 0.875rem;
+    margin: 0;
+    color: rgba(51, 51, 51, .30);
+  }
+  nav .form-group .channel .nav-link {
+    color: #333333;
+    padding: 0;
+  }
+  
+  nav .nav {
+    transition: all 0.3s;
+    z-index: 10;
+    position: relative;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.16);
+  }
+  nav .nav .nav-lg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px;
+  }
+  nav .nav .nav-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px;
+  }
+  nav .nav .nav-mobile img {
+    height: 32px;
+  }
+  nav .nav .nav-left {
+    padding-left: 20px;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  nav .nav .nav-left img {
+    height: 32px;
+  }
+  nav .nav .nav-center {
+    margin: 0px auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .nav .nav-center ul {
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+  }
+  nav .nav .nav-center ul li {
+    list-style-type: none !important;
+    display: flex;
+    flex-direction: row;
+  }
+  nav .nav .nav-right {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .nav .nav-right .nav-link {
+    color: #333333;
+    margin-left: 20px;
+    padding: 0;
+  }
+  
+  
+  
+  @media (min-width: 993px) {
+    nav .nav-mobile {
+      display: none !important;
+   }
+    nav .nav-sidebar {
+      display: none !important;
+   }
+  }
+  
+  
+  @media (max-width: 992px) {
+    nav .nav-lg {
+      display: none !important;
+   }
+    nav .nav-mobile button {
+      outline: 0 !important;
+   }
+    nav .nav-sidebar {
+      transition: all 0.3s;
+      position: absolute;
+      left: -70%;
+      z-index: 1;
+      background-color: white;
+      box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.16);
+      width: 70%;
+      display: flex;
+      justify-content: start;
+      flex-direction: column;
+      padding: 10px 30px;
+      overflow-y: auto;
+      height: 88vh;
+      max-height: 637px;
+   }
+    nav .nav-sidebar ul {
+      list-style-type: none !important;
+      margin: 0;
+      padding: 0;
+   }
+    nav .nav-sidebar ul li {
+      list-style-type: none !important;
+      height:60px;
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+   }
+    nav .nav-sidebar ul li a {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-decoration: none;
+      color: #333333;
+   }
+    nav .nav-sidebar ul li a button {
+      margin-right: 20px;
+   }
+    nav .show-sidebar {
+      left:0%;
+   }
+    nav .nav {
+      height: 70px;
+   }
+  
+   nav .fa-sign-out{
+    margin-left:13px;
+    margin-right:28px;
+   }
+  
+   nav .change-password img{
+    margin-left:13px;
+    margin-right:28px;
+   }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .main-dashboard{
+    height:70vh;
+    background: linear-gradient(to bottom, #620885 0%, rgb(150, 0, 209) 100%);
+  }
+  
+  .cards{
+    margin-top: -70px;
+  }
+  
+  .card{
+    height:100%;
+    border-radius: 30px !important;
+    border: none !important;
+    padding: 20px !important;
+    box-shadow: 0px 2px 30px rgba(10, 133, 171, .14) !important;
+  }
+  
+  @media(max-width:575.98px){
+    .card .redirect{
+      justify-content: flex-start;
+    }
+  }
+  
+  

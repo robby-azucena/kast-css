@@ -1,0 +1,117 @@
+body {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    height: 97vh;
+  }
+  
+  .boxes {
+    height: 150px;
+    width: 150px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    flex-wrap: wrap;
+  }
+  .boxes .box {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(-45deg, rgb(150, 0, 209), #620885);
+    -webkit-animation: pulse 1s linear infinite alternate;
+    animation: pulse 1.2s linear infinite alternate;
+  }
+  .boxes .box:nth-child(1) {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+  }
+  .boxes .box:nth-child(2) {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+  }
+  .boxes .box:nth-child(3) {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+  }
+  .boxes .box:nth-child(4) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+  .boxes .box:nth-child(5) {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+  }
+  .boxes .box:nth-child(6) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  .boxes .box:nth-child(7) {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+  }
+  .boxes .box:nth-child(8) {
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+  }
+  .boxes .box:nth-child(9) {
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+  }
+  
+  @-webkit-keyframes pulse {
+    from, 
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    80%,
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes pulse {
+    from, 
+    40% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    80%,
+    to {
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    .box {
+      width: 30px !important;
+      height: 30px !important;
+    }
+  }
+
+.loading{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.loading p{
+    text-align: center;
+    margin-top: 10px;
+}

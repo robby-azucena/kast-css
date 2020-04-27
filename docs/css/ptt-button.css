@@ -1,0 +1,128 @@
+.btn.btn-primary, .btn.btn-primary:focus {
+    background-color: rgb(171, 38, 207);
+    border-radius: 40px;
+    padding: 16px 30px;
+    border: 0;
+    box-shadow: 0px 3px 7px rgba(171, 38, 207, 0.38);
+}
+.btn.btn-primary:hover {
+    background-color: rgb(198, 36, 243);
+    border-radius: 40px;
+    border: 0;
+    box-shadow: 0px 3px 7px rgba(171, 38, 207, 0.38);
+}
+.btn.btn-primary:active {
+    background-color: rgb(171, 38, 207) !important;
+    border-radius: 40px;
+    border: 0;
+    box-shadow: 0px 15px 20px 1px rgba(171, 38, 207, 0.38) !important;
+}
+.btn-icon {
+    height: 40px;
+    width: 40px;
+    background-color: #e1e3e6;
+    border-radius: 40px;
+    outline: 0 !important;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+.active {
+    background-color: rgb(171, 38, 207) !important;
+}
+.sms-btn {
+    outline: 0;
+    border: 0;
+    background-color: rgba(69, 103, 255, 0);
+    color: rgb(171, 38, 207);
+    font-size: 24px;
+}
+a, a:hover, a:active, a:focus {
+    outline: 0 !important;
+    font-size: 1rem;
+}
+.signout-btn {
+    background-color: #ff6969;
+    margin-left:-30px;
+    margin-right:-30px;
+    margin-bottom: -10px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: white !important;
+    font-size:1rem;
+}
+
+.signout-btn:hover{
+    text-decoration: none;
+}
+
+.change-password i, .signout-btn i{
+    font-size: 1.5rem;
+}
+
+.arrow-btn{
+    font-size: 1rem;
+    color: rgb(171, 38, 207);
+}
+
+.arrow-btn:hover{
+    font-size: 1rem;
+    color: rgb(171, 38, 207);
+}
+
+.export-btn{
+    color: rgb(171, 38, 207);
+    outline: 0;
+    height:32px;
+    width: 32px;
+    background-color: rgba(69, 103, 255, 0);
+    border-radius: 40px;
+    border: 2px solid rgb(171, 38, 207);
+    transition: all 0.3s;
+}
+
+.export-btn:hover{
+    color: white;
+    outline: 0;
+    height:32px;
+    width: 32px;
+    background-color: rgb(171, 38, 207);
+    border-radius: 40px;
+    border: 2px solid rgb(171, 38, 207);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(171, 38, 207);
+    margin: 6px 0;
+    transition: 0.4s !important;
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-4.5px, 6px);
+    transform: rotate(-45deg) translate(-3.5px, 6px);
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6.5px, -9px);
+    transform: rotate(45deg) translate(-6.5px, -9px);
+}
